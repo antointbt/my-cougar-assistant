@@ -1,0 +1,110 @@
+[
+	{
+		"data": [
+			{
+				"text": "buildingOrRoom",
+				"userDefined": true,
+				"alias": "buildingOrRoom",
+				"meta": "@OfficeOrRoomInputData"
+			}
+		],
+		"isTemplate": false,
+		"count": 0
+	},
+	{
+		"data": [
+			{
+				"text": "Where is the ",
+				"userDefined": false
+			},
+			{
+				"text": "buildingOrRoom",
+				"userDefined": true,
+				"alias": "buildingOrRoom",
+				"meta": "@OfficeOrRoomInputData"
+			}
+		],
+		"isTemplate": false,
+		"count": 0
+	},
+	{
+		"data": [
+			{
+				"text": "I would like to know where is the ",
+				"userDefined": false
+			},
+			{
+				"text": "buildingOrRoom",
+				"userDefined": true,
+				"alias": "buildingOrRoom",
+				"meta": "@OfficeOrRoomInputData"
+			}
+		],
+		"isTemplate": false,
+		"count": 0
+	},
+	{
+		"data": [
+			{
+				"text": "Where can I find the ",
+				"userDefined": false
+			},
+			{
+				"text": "buildingOrRoom",
+				"userDefined": true,
+				"alias": "buildingOrRoom",
+				"meta": "@OfficeOrRoomInputData"
+			}
+		],
+		"isTemplate": false,
+		"count": 0
+	},
+	{
+		"data": [
+			{
+				"text": "I would like to know where can I find the ",
+				"userDefined": false
+			},
+			{
+				"text": "buildingOrRoom",
+				"userDefined": true,
+				"alias": "buildingOrRoom",
+				"meta": "@OfficeOrRoomInputData"
+			}
+		],
+		"isTemplate": false,
+		"count": 0
+	},
+	{
+		"data": [
+			{
+				"text": "How to go to ",
+				"userDefined": false
+			},
+			{
+				"text": "buildingOrRoom",
+				"userDefined": true,
+				"alias": "buildingOrRoom",
+				"meta": "@OfficeOrRoomInputData"
+			}
+		],
+		"isTemplate": false,
+		"count": 0
+	},
+	{
+		"data": [
+			{
+				"text": "I would like to know how to go to ",
+				"userDefined": false
+			},
+			{
+				"text": "buildingOrRoom",
+				"userDefined": true,
+				"alias": "buildingOrRoom",
+				"meta": "@OfficeOrRoomInputData"
+			}
+		],
+		"isTemplate": false,
+		"count": 0
+	}
+]

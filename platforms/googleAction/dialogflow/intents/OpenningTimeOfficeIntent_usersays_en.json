@@ -1,0 +1,146 @@
+[
+	{
+		"data": [
+			{
+				"text": "office",
+				"userDefined": true,
+				"alias": "office",
+				"meta": "@OfficeInputData"
+			}
+		],
+		"isTemplate": false,
+		"count": 0
+	},
+	{
+		"data": [
+			{
+				"text": "When the ",
+				"userDefined": false
+			},
+			{
+				"text": "office",
+				"userDefined": true,
+				"alias": "office",
+				"meta": "@OfficeInputData"
+			},
+			{
+				"text": " is open",
+				"userDefined": false
+			}
+		],
+		"isTemplate": false,
+		"count": 0
+	},
+	{
+		"data": [
+			{
+				"text": "When the ",
+				"userDefined": false
+			},
+			{
+				"text": "office",
+				"userDefined": true,
+				"alias": "office",
+				"meta": "@OfficeInputData"
+			},
+			{
+				"text": " is open today",
+				"userDefined": false
+			}
+		],
+		"isTemplate": false,
+		"count": 0
+	},
+	{
+		"data": [
+			{
+				"text": "I would like to know when the ",
+				"userDefined": false
+			},
+			{
+				"text": "office",
+				"userDefined": true,
+				"alias": "office",
+				"meta": "@OfficeInputData"
+			},
+			{
+				"text": " is open today",
+				"userDefined": false
+			}
+		],
+		"isTemplate": false,
+		"count": 0
+	},
+	{
+		"data": [
+			{
+				"text": "At what time the ",
+				"userDefined": false
+			},
+			{
+				"text": "office",
+				"userDefined": true,
+				"alias": "office",
+				"meta": "@OfficeInputData"
+			},
+			{
+				"text": " open",
+				"userDefined": false
+			}
+		],
+		"isTemplate": false,
+		"count": 0
+	},
+	{
+		"data": [
+			{
+				"text": "I would like to kow at what time the ",
+				"userDefined": false
+			},
+			{
+				"text": "office",
+				"userDefined": true,
+				"alias": "office",
+				"meta": "@OfficeInputData"
+			},
+			{
+				"text": " open",
+				"userDefined": false
+			}
+		],
+		"isTemplate": false,
+		"count": 0
+	},
+	{
+		"data": [
+			{
+				"text": "When can I go to ",
+				"userDefined": false
+			},
+			{
+				"text": "office",
+				"userDefined": true,
+				"alias": "office",
+				"meta": "@OfficeInputData"
+			}
+		],
+		"isTemplate": false,
+		"count": 0
+	},
+	{
+		"data": [
+			{
+				"text": "I would like to know when can I go to ",
+				"userDefined": false
+			},
+			{
+				"text": "office",
+				"userDefined": true,
+				"alias": "office",
+				"meta": "@OfficeInputData"
+			}
+		],
+		"isTemplate": false,
+		"count": 0
+	}
+]

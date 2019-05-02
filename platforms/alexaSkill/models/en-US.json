@@ -1,0 +1,169 @@
+{
+	"interactionModel": {
+		"languageModel": {
+			"invocationName": "my cougar assistant",
+			"types": [
+				{
+					"name": "OfficeInputData",
+					"values": [
+						{
+							"id": null,
+							"name": {
+								"value": "Library"
+							}
+						},
+						{
+							"id": null,
+							"name": {
+								"value": "USU"
+							}
+						}
+					]
+				},
+				{
+					"name": "OfficeOrRoomInputData",
+					"values": [
+						{
+							"id": null,
+							"name": {
+								"value": "USU"
+							}
+						},
+						{
+							"id": null,
+							"name": {
+								"value": "library"
+							}
+						},
+						{
+							"id": null,
+							"name": {
+								"value": "Room 4001"
+							}
+						},
+						{
+							"id": null,
+							"name": {
+								"value": "Room 4002"
+							}
+						},
+						{
+							"id": null,
+							"name": {
+								"value": "Room 4003"
+							}
+						}
+					]
+				}
+			],
+			"intents": [
+				{
+					"name": "HelloWorldIntent",
+					"samples": [
+						"hello",
+						"say hello",
+						"say hello world"
+					]
+				},
+				{
+					"name": "MyNameIsIntent",
+					"samples": [
+						"{name}",
+						"my name is {name}",
+						"i am {name}",
+						"you can call me {name}"
+					],
+					"slots": [
+						{
+							"name": "name",
+							"type": "AMAZON.US_FIRST_NAME"
+						}
+					]
+				},
+				{
+					"name": "OpenningTimeOfficeIntent",
+					"samples": [
+						"{office}",
+						"When the {office} is open",
+						"When the {office} is open today",
+						"I would like to know when the {office} is open today",
+						"At what time the {office} open",
+						"I would like to kow at what time the {office} open",
+						"When can I go to {office}",
+						"I would like to know when can I go to {office}"
+					],
+					"slots": [
+						{
+							"name": "office",
+							"type": "OfficeInputData"
+						}
+					]
+				},
+				{
+					"name": "WhereIsOfficeIntent",
+					"samples": [
+						"{buildingOrRoom}",
+						"Where is the {buildingOrRoom}",
+						"I would like to know where is the {buildingOrRoom}",
+						"Where can I find the {buildingOrRoom}",
+						"I would like to know where can I find the {buildingOrRoom}",
+						"How to go to {buildingOrRoom}",
+						"I would like to know how to go to {buildingOrRoom}"
+					],
+					"slots": [
+						{
+							"name": "buildingOrRoom",
+							"type": "OfficeOrRoomInputData"
+						}
+					]
+				},
+				{
+					"name": "NextEventsIntent",
+					"samples": [
+						"When is the next event",
+						"where will happened the next event",
+						"when is the next event"
+					]
+				},
+				{
+					"name": "HowAreYouIntent",
+					"samples": [
+						"How are you today",
+						"Do you have a good time",
+						"What's up",
+						"Do you have a good day"
+					]
+				},
+				{
+					"name": "HowAreYouResponseIntent",
+					"samples": [
+						"I'm fine today",
+						"I have a good time too",
+						"I'm ok",
+						"It's a great day today",
+						"I am good"
+					]
+				},
+				{
+					"name": "ThankYouIntent",
+					"samples": [
+						"Thank you",
+						"Thank you very much"
+					]
+				},
+				{
+					"name": "AMAZON.CancelIntent",
+					"samples": []
+				},
+				{
+					"name": "AMAZON.HelpIntent",
+					"samples": []
+				},
+				{
+					"name": "AMAZON.StopIntent",
+					"samples": []
+				}
+			]
+		}
+	}
+}

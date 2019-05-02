@@ -1,0 +1,176 @@
+{
+	"invocation": "my cougar assistant",
+	"intents": [
+		{
+			"name": "HelloWorldIntent",
+			"phrases": [
+				"hello",
+				"say hello",
+				"say hello world"
+			]
+		},
+		{
+			"name": "MyNameIsIntent",
+			"phrases": [
+				"{name}",
+				"my name is {name}",
+				"i am {name}",
+				"you can call me {name}"
+			],
+			"inputs": [
+				{
+					"name": "name",
+					"type": {
+						"alexa": "AMAZON.US_FIRST_NAME",
+						"dialogflow": "@sys.given-name"
+					}
+				}
+			]
+		},
+		{
+			"name": "OpenningTimeOfficeIntent",
+			"phrases": [
+				"{office}",
+				"When the {office} is open",
+				"When the {office} is open today",
+				"I would like to know when the {office} is open today",
+				"At what time the {office} open",
+				"I would like to kow at what time the {office} open",
+				"When can I go to {office}",
+				"I would like to know when can I go to {office}"
+			],
+			"inputs": [
+				{
+					"name": "office",
+					"type": "OfficeInputData"
+				}
+			]
+		},
+		{
+			"name": "WhereIsOfficeIntent",
+			"phrases": [
+				"{buildingOrRoom}",
+				"Where is the {buildingOrRoom}",
+				"I would like to know where is the {buildingOrRoom}",
+				"Where can I find the {buildingOrRoom}",
+				"I would like to know where can I find the {buildingOrRoom}",
+				"How to go to {buildingOrRoom}",
+				"I would like to know how to go to {buildingOrRoom}"
+			],
+			"inputs": [
+				{
+					"name": "buildingOrRoom",
+					"type": "OfficeOrRoomInputData"
+				}
+			]
+		},
+		{
+			"name": "NextEventsIntent",
+			"phrases": [
+				"When is the next event",
+				"where will happened the next event",
+				"when is the next event"
+			]
+		},
+		{
+			"name": "HowAreYouIntent",
+			"phrases": [
+				"How are you today",
+				"Do you have a good time",
+				"What's up",
+				"Do you have a good day"
+			]
+		},
+		{
+			"name": "HowAreYouResponseIntent",
+			"phrases": [
+				"I'm fine today",
+				"I have a good time too",
+				"I'm ok",
+				"It's a great day today",
+				"I am good"
+			]
+		},
+		{
+			"name": "ThankYouIntent",
+			"phrases": [
+				"Thank you",
+				"Thank you very much"
+			]
+		}
+
+	],
+	"inputTypes": [
+	    {
+	        "name": "OfficeInputData",
+	        "values": [
+	            {
+	                "value": "Library"
+				},
+				{
+	                "value": "USU"
+				}
+	        ]
+	    },
+	    {
+	        "name": "OfficeOrRoomInputData",
+	        "values": [
+				{
+	                "value": "USU"
+				},
+				{
+	                "value": "library"
+				},
+				{
+	                "value": "Room 4001"
+				},
+				{
+	                "value": "Room 4002"
+				},
+				{
+	                "value": "Room 4003"
+				}
+	        ]
+	    }
+	],
+	"alexa": {
+		"interactionModel": {
+			"languageModel": {
+				"intents": [
+					{
+						"name": "AMAZON.CancelIntent",
+						"samples": []
+					},
+					{
+						"name": "AMAZON.HelpIntent",
+						"samples": []
+					},
+					{
+						"name": "AMAZON.StopIntent",
+						"samples": []
+					}
+				]
+			}
+		}
+	},
+	"dialogflow": {
+		"intents": [
+			{
+				"name": "Default Fallback Intent",
+				"auto": true,
+				"webhookUsed": true,
+				"fallbackIntent": true
+			},
+			{
+				"name": "Default Welcome Intent",
+				"auto": true,
+				"webhookUsed": true,
+				"events": [
+					{
+						"name": "WELCOME"
+					}
+				]
+			}
+		]
+	}
+}

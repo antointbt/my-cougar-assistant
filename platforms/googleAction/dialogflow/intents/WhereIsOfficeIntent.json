@@ -1,0 +1,17 @@
+{
+	"name": "WhereIsOfficeIntent",
+	"auto": true,
+	"webhookUsed": true,
+	"responses": [
+		{
+			"parameters": [
+				{
+					"isList": false,
+					"name": "buildingOrRoom",
+					"value": "$buildingOrRoom",
+					"dataType": "@OfficeOrRoomInputData"
+				}
+			]
+		}
+	]
+}

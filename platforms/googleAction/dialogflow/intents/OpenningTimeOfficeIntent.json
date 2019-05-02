@@ -1,0 +1,17 @@
+{
+	"name": "OpenningTimeOfficeIntent",
+	"auto": true,
+	"webhookUsed": true,
+	"responses": [
+		{
+			"parameters": [
+				{
+					"isList": false,
+					"name": "office",
+					"value": "$office",
+					"dataType": "@OfficeInputData"
+				}
+			]
+		}
+	]
+}
