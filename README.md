@@ -1,4 +1,4 @@
-# my cougar assistant second update
+# my cougar assistant second update.
 
 ## How to install and use jovo framework
 
