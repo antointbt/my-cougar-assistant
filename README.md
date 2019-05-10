@@ -34,7 +34,7 @@ Or git clone the repository
 - Go to skill
 - Create an account
 - And create a new skill
-- Copy the skill ID
+- Copy the skillz ID
 - Paste the skill id in the file project.json
 
 ```
