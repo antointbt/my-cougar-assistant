@@ -1,4 +1,4 @@
-# my cougar assistant second update.
+# my cougar assistant second update..
 
 ## How to install and use jovo framework
 
@@ -34,11 +34,7 @@ Or git clone the repository
 - Go to skill
 - Create an account
 - And create a new skill
-<<<<<<< HEAD
-- Copy the skillz ID
-=======
 - Copy the skills ID
->>>>>>> master
 - Paste the skill id in the file project.json
 
 ```
