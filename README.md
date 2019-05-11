@@ -35,7 +35,7 @@ Or git clone the repository
 - Create an account
 - And create a new skill
 <<<<<<< HEAD
-- Copy the skills ID
+- Copy the skillz ID
 =======
 - Copy the skills ID
 >>>>>>> master
