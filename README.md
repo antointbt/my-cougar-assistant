@@ -1,4 +1,4 @@
-# my cougar assistant second update...
+# my cougar assistant second update..
 
 ## How to install and use jovo framework
 
@@ -31,7 +31,7 @@ Or git clone the repository
 ## How to link the project to Amazon Alexa
 
 - Create a Alexa Skill Kit account : https://developer.amazon.com/alexa-skills-kit
-- Go to skills
+- Go to skill
 - Create an account
 - And create a new skill
 - Copy the skills ID
