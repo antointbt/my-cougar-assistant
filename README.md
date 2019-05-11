@@ -31,7 +31,7 @@ Or git clone the repository
 ## How to link the project to Amazon Alexa
 
 - Create a Alexa Skill Kit account : https://developer.amazon.com/alexa-skills-kit
-- Go to skill
+- Go to skills
 - Create an account
 - And create a new skill
 - Copy the skills ID
