@@ -1,4 +1,4 @@
-# Rigo's second update
+# Rigo's first update
 
 ## How to install and use jovo framework
 
